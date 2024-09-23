@@ -100,37 +100,37 @@ const ContactUsPage = () => {
                             <label>
                                 Nom Complet
                             </label>
-                            <input type="text" required placeholder='Entrez votre nom complet' onChange={(e) => handleChange("name", e.target.value)} />
+                            <input value={formData?.name} type="text" required placeholder='Entrez votre nom complet' onChange={(e) => handleChange("name", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
                                 Email
                             </label>
-                            <input type="email" required placeholder='Entrez votre email' onChange={(e) => handleChange("email", e.target.value)} />
+                            <input value={formData?.email} type="email" required placeholder='Entrez votre email' onChange={(e) => handleChange("email", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
                                 Phone
                             </label>
-                            <input type="phone" required placeholder='Entrez votre phone' onChange={(e) => handleChange("phone", e.target.value)} />
+                            <input value={formData?.phone} type="phone" required placeholder='Entrez votre phone' onChange={(e) => handleChange("phone", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
                                 Date appropriée pour rappeler
                             </label>
-                            <input type="date" required placeholder='Entrez votre date' onChange={(e) => handleChange("date", e.target.value)} />
+                            <input value={formData?.date} type="date" required placeholder='Entrez votre date' onChange={(e) => handleChange("date", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
                                 Moment approprié pour rappeler
                             </label>
-                            <input type="time" required placeholder='Entrez votre moment' onChange={(e) => handleChange("time", e.target.value)} />
+                            <input value={formData?.time} type="time" required placeholder='Entrez votre moment' onChange={(e) => handleChange("time", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
                                 Message
                             </label>
-                            <textarea type="text" required placeholder='Entrez votre message' onChange={(e) => handleChange("message", e.target.value)} />
+                            <textarea value={formData?.message} type="text" required placeholder='Entrez votre message' onChange={(e) => handleChange("message", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <button type="submit" disabled={loading}>
