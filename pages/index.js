@@ -5,7 +5,7 @@ import Contact from '../components/Contact/Contact';
 import OurPartners from '../components/OurPartners/OurPartners';
 import OurAchievements from '../components/OurAchievements/OurAchievements';
 import Navbar from '@/components/Navbar/Navbar';
-import Footer from '@/components/Footer/footer';
+import Footer from '@/components/Footer/Footer';
 import Locksmithing from '@/components/Locksmithing/Locksmithing';
 import PVCAndAluminum from '@/components/PVCAndAluminum/PVCAndAluminum';
 import { useEffect } from 'react';
