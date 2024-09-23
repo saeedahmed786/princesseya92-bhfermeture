@@ -39,6 +39,14 @@ const ContactUsPage = () => {
             setLoading(false);
             if (res.status === 200) {
                 SuccessAlert(res.data.message);
+                setFormData({
+                    name: "",
+                    email: "",
+                    phone: "",
+                    date: "",
+                    time: "",
+                    message: ""
+                })
             } else {
                 ErrorAlert(res.data.message);
             }
