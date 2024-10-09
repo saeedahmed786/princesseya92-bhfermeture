@@ -40,3 +40,7 @@ h1 {
     text-wrap: balance;
   }
 }
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}

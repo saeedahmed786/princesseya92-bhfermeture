@@ -8,10 +8,12 @@
     border-bottom: 1px solid rgb(214, 217, 218);
     padding-bottom: 10px;
     gap: 17px;
+    color: black !important;
 }
 
 .contactPage p {
     font-size: 19px !important;
+    color: black !important;
 }
 
 .contactPage>div {
@@ -31,6 +33,7 @@
     font-size: 23px;
     margin-bottom: 10px;
     display: block;
+    color: black !important;
 }
 
 .form .item input,
@@ -44,7 +47,7 @@
     border-radius: 6px;
 }
 
-.form button {
+.form .submitBtn {
     background-color: #0f2035 !important;
     padding: 10px;
     font-size: 23px;

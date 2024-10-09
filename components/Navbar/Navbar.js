@@ -23,7 +23,10 @@ const Navbar = () => {
                         alt="Company Logo"
                         className="mr-3 w-[100px]"
                     />
-                    <h1 className="text-white font-bold text-lg">BH FERMETURE</h1>
+                    <div>
+                        <h1 className="text-white font-bold text-lg">BH FERMETURE</h1>
+                        <h3 className='text-white font-bolder'>votre sécurité, notre priorité</h3>
+                    </div>
                 </div>
                 <div className="md:hidden">
                     {/* Hamburger menu icon */}
@@ -53,9 +56,9 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <a href='tel: 0749441729' className="text-white hover:text-gray-400">
-                            0749441729
-                        </a>
+                        <Link href="#contact" className="text-white hover:text-gray-400">
+                            Citation
+                        </Link>
                     </li>
                 </ul>
             </div>

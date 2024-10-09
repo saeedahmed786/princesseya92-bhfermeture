@@ -30,6 +30,9 @@ const PVCAndAluminum = () => {
                             <Image src={pvcImg} alt="Aluminum and PVC Metalwork" className="w-full h-full object-cover" />
                         </div>
                     </div>
+                    <div className='flex justify-center mt-[60px]'>
+                        <a href='#contact' className='capitalize bg-gray-800 text-center font-semibold rounded-[10px] p-4 text-white text-[23px] block w-full max-w-[300px]'>obtenir un devis</a>
+                    </div>
                 </div>
             </div>
         </div>
