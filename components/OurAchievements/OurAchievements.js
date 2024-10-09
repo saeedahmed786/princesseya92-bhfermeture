@@ -39,37 +39,37 @@ const OurAchievements = () => {
             <div className="mt-10 flex flex-col gap-4 p-5">
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Image data-aos="zoom-in-left" src={img1} alt="PVC Picture" className="w-full" />
-                    <div data-aos="zoom-in-right" className="p-10 border bg-gray-800 border-gray-300">
-                        <h2 className="text-[43px] text-white font-bold">Lorem Ipsium</h2>
-                        <p className="text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300">
+                        <h2 className="text-[30px] md:text-[43px] text-white font-bold">Lorem Ipsium</h2>
+                        <p className="text-[17px] md:text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div data-aos="zoom-in-left" className="p-10 border bg-gray-800 border-gray-300">
-                        <h2 className="text-[43px] text-white font-bold">Lorem Ipsium</h2>
-                        <p className="text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <div data-aos="zoom-in-left" className="p-4 md:p-10 border bg-gray-800 border-gray-300 order-1 md:order-0">
+                        <h2 className="text-[30px] md:text-[43px] text-white font-bold">Lorem Ipsium</h2>
+                        <p className="text-[17px] md:text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
-                    <Image data-aos="zoom-in-right" src={img2} alt="PVC Picture" className="w-full" />
+                    <Image data-aos="zoom-in-right" src={img2} alt="PVC Picture" className="w-full order-0 md:order-1" />
                 </div>
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Image data-aos="zoom-in-left" src={img3} alt="PVC Picture" className="w-full" />
-                    <div data-aos="zoom-in-right" className="p-10 border bg-gray-800 border-gray-300">
-                        <h2 className="text-[43px] text-white font-bold">Lorem Ipsium</h2>
-                        <p className="text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300">
+                        <h2 className="text-[30px] md:text-[43px] text-white font-bold">Lorem Ipsium</h2>
+                        <p className="text-[17px] md:text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div data-aos="zoom-in-left" className="p-10 border bg-gray-800 border-gray-300">
-                        <h2 className="text-[43px] text-white font-bold">Lorem Ipsium</h2>
-                        <p className="text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <div data-aos="zoom-in-left" className="p-4 md:p-10 border bg-gray-800 border-gray-300 order-1 md:order-0">
+                        <h2 className="text-[30px] md:text-[43px] text-white font-bold">Lorem Ipsium</h2>
+                        <p className="text-[17px] md:text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
-                    <Image data-aos="zoom-in-right" src={img4} alt="PVC Picture" className="w-full" />
+                    <Image data-aos="zoom-in-right" src={img4} alt="PVC Picture" className="w-full order-0 md:order-1" />
                 </div>
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Image data-aos="zoom-in-left" src={img5} alt="PVC Picture" className="w-full" />
-                    <div data-aos="zoom-in-right" className="p-10 border bg-gray-800 border-gray-300">
-                        <h2 className="text-[43px] text-white font-bold">Lorem Ipsium</h2>
-                        <p className="text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300">
+                        <h2 className="text-[30px] md:text-[43px] text-white font-bold">Lorem Ipsium</h2>
+                        <p className="text-[17px] md:text-[23px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
             </div>

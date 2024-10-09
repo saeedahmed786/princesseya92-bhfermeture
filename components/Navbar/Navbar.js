@@ -25,7 +25,7 @@ const Navbar = () => {
                     />
                     <div>
                         <h1 className="text-white font-bold text-lg">BH FERMETURE</h1>
-                        <h3 className='text-white font-bolder'>votre sécurité, notre priorité</h3>
+                        <h3 className='text-white text-[14px] md:text-[17px] font-bolder'>votre sécurité, notre priorité</h3>
                     </div>
                 </div>
                 <div className="md:hidden">
