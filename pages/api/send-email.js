@@ -1,5 +1,6 @@
 // pages/api/send-email.js
 import nodemailer from 'nodemailer';
+import moment from 'moment';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
@@ -46,7 +47,7 @@ export default async function handler(req, res) {
         </tr>
         <tr>
           <td style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Jour de rappel souhaité:</strong></td>
-          <td style="padding: 10px; border-bottom: 1px solid #ddd;">${date}</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd;">${moment(date).format("DD/MM/YYYY")}</td>
         </tr>
         <tr>
           <td style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Heure de rappel souhaité:</strong></td>

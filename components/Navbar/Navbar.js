@@ -57,7 +57,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link href="#contact" className="text-white hover:text-gray-400">
-                            Citation
+                            Devis
                         </Link>
                     </li>
                 </ul>

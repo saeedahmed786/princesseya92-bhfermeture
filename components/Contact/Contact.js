@@ -8,6 +8,9 @@ import Loading from '../Loading/Loading';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import MyDatePicker from './DatePicker';
+import TimePicker from 'react-time-picker';
+import 'react-time-picker/dist/TimePicker.css';
+import 'react-clock/dist/Clock.css';
 
 const ContactUsPage = () => {
     const [loading, setLoading] = useState(false);
@@ -68,7 +71,7 @@ const ContactUsPage = () => {
                 <div data-aos="zoom-in-right" data-aos-duration="1000" className={styles.contactCards}>
                     <FcCustomerSupport className='text-[200px]' />
                     <div className="mb-[32px]">
-                        <h2 className='text-[28px] font-bold'>Coordonnées de Contact</h2>
+                        <h2 className='text-[28px] font-bold text-black'>Coordonnées de Contact</h2>
                         <p className='mt-2'>Pour toute question ou demande d'information supplémentaire, n'hésitez pas à nous contacter via les coordonnées ci-dessous. Notre équipe est à votre disposition pour vous assister.</p>
                     </div>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
@@ -107,9 +110,9 @@ const ContactUsPage = () => {
                         </div>
                         <div className={styles.item}>
                             <label>
-                                Nom de famille
+                                Last name
                             </label>
-                            <input value={formData?.lastName} type="text" required placeholder='Entrez votre nom complet' onChange={(e) => handleChange("lastName", e.target.value)} />
+                            <input value={formData?.lastName} type="text" required placeholder='Entrez votre last name' onChange={(e) => handleChange("lastName", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
@@ -121,20 +124,17 @@ const ContactUsPage = () => {
                             <label>
                                 Telephone
                             </label>
-                            <input value={formData?.phone} type="phone" required placeholder='Entrez votre phone' onChange={(e) => handleChange("phone", e.target.value)} />
+                            <input value={formData?.phone} type="phone" required placeholder='Entrez votre Téléphone' onChange={(e) => handleChange("phone", e.target.value)} />
                         </div>
                         <MyDatePicker formData={formData} handleChange={handleChange} />
-                        {/* <div className={styles.item} lang="fr">
-                            <label>
-                                Jour de rappel souhaité
-                            </label>
-                            <input value={formData?.date} type="date" required placeholder='Entrez votre date' onChange={(e) => handleChange("date", e.target.value)} />
-                        </div> */}
                         <div className={styles.item}>
                             <label>
                                 Heure de rappel souhaité
                             </label>
-                            <input value={formData?.time} type="time" required placeholder='Entrez votre moment' onChange={(e) => handleChange("time", e.target.value)} />
+                            <div className={styles.TimePicker}>
+                                <TimePicker className="w-full d-flex" format='hh:mm a' locale='fr' value={formData.time} onChange={(val) => handleChange("time", val)} />
+                            </div>
+                            {/* <input value={formData?.time} type="time" required placeholder='Entrez votre moment' onChange={(e) => handleChange("time", e.target.value)} /> */}
                         </div>
                         <div className={styles.item}>
                             <label>

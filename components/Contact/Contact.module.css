@@ -1,5 +1,5 @@
 .contactPage {
-    background: #f5f5f5;
+    background: #F3EFE0;
 }
 
 .contactPage h1 {
@@ -82,4 +82,20 @@
 .contactCards .card p {
     padding: 0px 15px;
     padding-bottom: 15px;
+}
+
+.TimePicker>div>div>div {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding: 10px;
+}
+
+.TimePicker input {
+    height: fit-content !important;
+    margin-bottom: 0px !important;
+}
+
+.TimePicker span>div {
+    height: 200px !important;
 }

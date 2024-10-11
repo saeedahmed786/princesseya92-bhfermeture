@@ -1,40 +1,34 @@
-import { SiGoogletasks } from "react-icons/si";
-import { MdOutlineSentimentSatisfied } from "react-icons/md";
 import { FaAward, FaUsers } from "react-icons/fa6";
-import img1 from "../../public/assets/img1.jpeg";
-import img2 from "../../public/assets/img2.jpeg";
+import before from "../../public/assets/before.jpg";
+import after from "../../public/assets/after.jpg";
+
+import img1 from "../../public/assets/img1.jpg";
+import img2 from "../../public/assets/img2.jpg";
 import img3 from "../../public/assets/img3.jpg";
-import img4 from "../../public/assets/img4.webp";
-import img5 from "../../public/assets/img5.jpeg";
+import img4 from "../../public/assets/img4.jpg";
+import img5 from "../../public/assets/img5.jpg";
 import Image from "next/image";
+import PictureCarousel from "./PictureCarousel/PictureCarousel";
+
 
 const OurAchievements = () => {
     return (
         <section className="bg-gray-50 py-10" id="achivements">
             <h1 data-aos="zoom-in" data-aos-duration="1000" className="text-center mb-5">Nos Réalisations</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-5 md:p-0 max-w-5xl mx-auto">
-                <div data-aos="zoom-in-right" data-aos-duration="1000" className="text-center flex items-center flex-col gap-2 p-10 border bg-[#9f75d7] border-gray-300 rounded-[10px]">
-                    <SiGoogletasks className="text-[60px] text-black" />
-                    <h2 className="text-[43px] text-black font-bold">500+</h2>
-                    <p className="text-[23px] text-black">Projets terminés</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-5 md:p-0">
+                <div data-aos="zoom-in-right" data-aos-duration="1000" className="text-center rounded-[10px]">
+                    <Image data-aos="zoom-in-left" src={before} alt="PVC Picture" className="w-full h-full max-h-[600px] object-cover" />
+                    <p className="md:text-[23px] relative text-white bg-black-rgba py-3 mt-[-49px] md:mt-[-58px] z-[1000]">Avant</p>
                 </div>
-                <div data-aos="zoom-in" data-aos-duration="1000" className="text-center flex items-center flex-col gap-2 p-10 border bg-[#f0c30c] border-gray-300 rounded-[10px]">
-                    <MdOutlineSentimentSatisfied className="text-[60px] text-black" />
-                    <h2 className="text-[43px] text-black font-bold">300+</h2>
-                    <p className="text-[23px] text-black">Clients satisfaits</p>
-                </div>
-                <div data-aos="zoom-in-left" data-aos-duration="1000" className="text-center flex items-center flex-col gap-2 p-10 border bg-[#f0c30c] border-gray-300 rounded-[10px]">
-                    <FaUsers className="text-[60px] text-[#000]" />
-                    <h2 className="text-[43px] text-black font-bold">20</h2>
-                    <p className="text-[23px] text-black">Notre équipe</p>
-                </div>
-                <div data-aos="zoom-in-left" data-aos-duration="1000" className="text-center flex items-center flex-col gap-2 p-10 border bg-[#9f75d7] border-gray-300 rounded-[10px]">
-                    <FaAward className="text-[60px] text-[#000]" />
-                    <h2 className="text-[43px] text-black font-bold">10+</h2>
-                    <p className="text-[23px] text-black">Prix ​gagnés</p>
+                <div data-aos="zoom-in" data-aos-duration="1000" className="text-center border-gray-300 rounded-[10px]">
+                    <Image data-aos="zoom-in-left" src={after} alt="PVC Picture" className="w-full h-full max-h-[600px] object-cover" />
+                    <p className="md:text-[23px] relative text-white bg-black-rgba py-3 mt-[-49px] md:mt-[-58px] z-[1000]">La pose d'un garde corps metallique</p>
                 </div>
             </div>
-
+            <div className="my-[40px] md:my-[100px] p-4">
+                <h2 className="text-center text-[30px] md:text-[43px] text-black font-bold mb-4">Nos travaux</h2>
+                <PictureCarousel />
+            </div>
 
             <div className="mt-10 flex flex-col gap-4 p-5">
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
