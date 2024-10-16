@@ -21,7 +21,7 @@ const Hero = () => {
                 <p className="text-lg">
                     Besoin de réaliser des travaux de menuiserie en aluminium ou PVC, ou d'un dépannage en urgence en serrurerie ? Nos artisans se tiennent à votre disposition sept jours sur sept pour vous offrir des solutions de qualité, adaptées à vos besoins.
                 </p>
-                <div className="mt-10">
+                <div className="mt-10 text-center">
                     <a href="tel: 0749441729" className="bg-gray-800 p-4 px-10 rounded-[8px] text-white text-[23px] font-bold">0749441729</a>
                 </div>
             </div>
