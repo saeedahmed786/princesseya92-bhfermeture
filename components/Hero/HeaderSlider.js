@@ -29,14 +29,13 @@ const HeaderSlider = () => {
                 slidesPerView={1}
                 spaceBetween={30}
                 autoplay={{
-                    delay: 2500,
+                    delay: 5000,
                     disableOnInteraction: false,
                 }}
                 pagination={{
                     clickable: true,
                 }}
-                navigation={true}
-                modules={[Pagination, Autoplay, Navigation]}
+                modules={[Pagination, Autoplay]}
                 className="mySwiper"
             >
                 {
