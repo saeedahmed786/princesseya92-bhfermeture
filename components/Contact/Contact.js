@@ -110,7 +110,7 @@ const ContactUsPage = () => {
                         </div>
                         <div className={styles.item}>
                             <label>
-                                Name
+                                Nom
                             </label>
                             <input value={formData?.lastName} type="text" required placeholder='Nom' onChange={(e) => handleChange("lastName", e.target.value)} />
                         </div>
