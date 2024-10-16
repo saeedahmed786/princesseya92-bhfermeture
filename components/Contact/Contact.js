@@ -106,25 +106,25 @@ const ContactUsPage = () => {
                             <label>
                                 Entrer votre prénom
                             </label>
-                            <input value={formData?.firstName} type="text" required placeholder='Entrez votre nom complet' onChange={(e) => handleChange("firstName", e.target.value)} />
+                            <input value={formData?.firstName} type="text" required placeholder='Prénom' onChange={(e) => handleChange("firstName", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
-                            Name
+                                Name
                             </label>
-                            <input value={formData?.lastName} type="text" required placeholder='Enter your first name' onChange={(e) => handleChange("lastName", e.target.value)} />
+                            <input value={formData?.lastName} type="text" required placeholder='Nom' onChange={(e) => handleChange("lastName", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
                                 Email
                             </label>
-                            <input value={formData?.email} type="email" required placeholder='Entrez votre email' onChange={(e) => handleChange("email", e.target.value)} />
+                            <input value={formData?.email} type="email" required onChange={(e) => handleChange("email", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
                                 Telephone
                             </label>
-                            <input value={formData?.phone} type="phone" required placeholder='Entrez votre Téléphone' onChange={(e) => handleChange("phone", e.target.value)} />
+                            <input value={formData?.phone} type="phone" required onChange={(e) => handleChange("phone", e.target.value)} />
                         </div>
                         <MyDatePicker formData={formData} handleChange={handleChange} />
                         <div className={styles.item}>
@@ -140,7 +140,7 @@ const ContactUsPage = () => {
                             <label>
                                 Message
                             </label>
-                            <textarea value={formData?.message} type="text" required placeholder='Entrez votre message' onChange={(e) => handleChange("message", e.target.value)} />
+                            <textarea value={formData?.message} type="text" required onChange={(e) => handleChange("message", e.target.value)} />
                         </div>
                         <p className='bg-[#ddffff] border p-4 rounded-[10px]'>En cas d'urgence, vous pouvez appeler directement le numéro de téléphone ou envoyer un sms.</p>
                         <div className={styles.item}>

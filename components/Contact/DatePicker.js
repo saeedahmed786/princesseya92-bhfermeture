@@ -15,7 +15,6 @@ const MyDatePicker = ({ formData, handleChange }) => {
                 onChange={(date) => handleChange('date', date)}
                 locale="fr"
                 dateFormat="dd/MM/yyyy"
-                placeholderText="Entrez votre date"
                 required
             />
         </div>
