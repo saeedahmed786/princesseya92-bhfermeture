@@ -47,7 +47,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link href="#partners" className="text-white hover:text-gray-400">
-                            Nos partenaires
+                            Nos Partenaires
                         </Link>
                     </li>
                     <li>

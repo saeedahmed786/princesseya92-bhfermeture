@@ -104,15 +104,15 @@ const ContactUsPage = () => {
                         <p className='mb-4'>Veuillez remplir ce formulaire avec vos informations afin que nous puissions vous recontacter</p>
                         <div className={styles.item}>
                             <label>
-                                Prénom
+                                Entrer votre prénom
                             </label>
                             <input value={formData?.firstName} type="text" required placeholder='Entrez votre nom complet' onChange={(e) => handleChange("firstName", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
-                                Last name
+                            Name
                             </label>
-                            <input value={formData?.lastName} type="text" required placeholder='Entrez votre last name' onChange={(e) => handleChange("lastName", e.target.value)} />
+                            <input value={formData?.lastName} type="text" required placeholder='Enter your first name' onChange={(e) => handleChange("lastName", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>

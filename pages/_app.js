@@ -6,29 +6,29 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         {/* Basic Meta Tags */}
-        <title>BH FERMETURE | Expert PVC & Aluminum Work</title>
-        <meta name="description" content="Professional locksmithing, PVC, and aluminum metal joinery services. Offering high-quality craftsmanship for all your security and metalwork needs. Contact us for a quote!" />
+        <title>BH FERMETURE | Travaux experts en PVC et en aluminium</title>
+        <meta name="description" content="Services professionnels de serrurerie, de menuiserie métallique PVC et aluminium. Offrant un savoir-faire de haute qualité pour tous vos besoins en matière de sécurité et de ferronnerie. Contactez-nous pour un devis !" />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Your Company Name" />
+        <meta name="author" content="BH FERMETURE" />
 
         {/* Open Graph / Facebook */}
-        <meta property="og:title" content="BH FERMETURE | Expert PVC & Aluminum Work" />
-        <meta property="og:description" content="We specialize in locksmithing as well as PVC and aluminum metal joinery services. Contact us for reliable and professional craftsmanship." />
+        <meta property="og:title" content="BH FERMETURE | Travaux experts en PVC et en aluminium" />
+        <meta property="og:description" content="Nous sommes spécialisés dans la serrurerie ainsi que dans les prestations de menuiserie métallique PVC et aluminium. Contactez-nous pour un savoir-faire fiable et professionnel." />
         <meta property="og:url" content="https://www.bhfermeture.com" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.bhfermeture.com/assets/logo.jpg" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="BH FERMETURE | Expert PVC & Aluminum Work" />
-        <meta name="twitter:description" content="Offering locksmithing, PVC, and aluminum metal joinery services. Professional craftsmanship for your home or business needs." />
+        <meta name="twitter:title" content="BH FERMETURE | Travaux experts en PVC et en aluminium" />
+        <meta name="twitter:description" content="Proposant des services de serrurerie, de menuiserie métallique PVC et aluminium. Un savoir-faire professionnel pour vos besoins domestiques ou professionnels." />
         <meta name="twitter:image" content="https://www.bhfermeture.com/assets/logo.jpg" />
 
         {/* Canonical URL */}
         <link rel="canonical" href="https://www.bhfermeture.com" />
 
         {/* Keywords */}
-        <meta name="keywords" content="locksmithing, PVC joinery, aluminum metal joinery, metalwork services, locksmith services, professional joinery, security services, locksmith near me, custom metal joinery, PVC window installation, aluminum doors" />
+        <meta name="keywords" content="serrurerie, menuiserie PVC, menuiserie métal aluminium, services de ferronnerie, services de serrurerie, menuiserie professionnelle, services de sécurité, serrurier à proximité, menuiserie métallique sur mesure, pose de fenêtres PVC, portes aluminium" />
 
         {/* Viewport */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
