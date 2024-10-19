@@ -131,10 +131,10 @@ const ContactUsPage = () => {
                             <label>
                                 Heure de rappel souhaité
                             </label>
-                            <div className={styles.TimePicker}>
+                            {/* <div className={styles.TimePicker}>
                                 <TimePicker className="w-full d-flex" format='hh:mm a' locale='fr' value={formData.time} onChange={(val) => handleChange("time", val)} />
-                            </div>
-                            {/* <input value={formData?.time} type="time" required placeholder='Entrez votre moment' onChange={(e) => handleChange("time", e.target.value)} /> */}
+                            </div> */}
+                            <input value={formData?.time} type="time" required placeholder='Entrez votre moment' onChange={(e) => handleChange("time", e.target.value)} />
                         </div>
                         <div className={styles.item}>
                             <label>
