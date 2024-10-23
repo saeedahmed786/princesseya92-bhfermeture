@@ -10,7 +10,7 @@ const OurPartners = () => {
             <div>
                 <h1 data-aos="zoom-in" data-aos-duration="1000" className="text-center mb-5">Nos Partenaires</h1>
                 <p data-aos="zoom-in" data-aos-duration="1000" className="text-center text-gray-600 mb-10">
-                    Chez FERMETURE, nous collaborons avec des partenaires de confiance pour garantir des services de qualité
+                    BH FERMETURE, nous collaborons avec des partenaires de confiance pour garantir des services de qualité
                     et des solutions innovantes dans le domaine de la serrurerie et de la métallerie. Ces collaborations nous permettent de vous offrir des produits performants, durables et à la pointe de la technologie. Ensemble, nous renforçons la sécurité de vos biens et de vos espaces.
                 </p>
                 <div data-aos="zoom-in" data-aos-duration="1000" className="flex justify-center gap-20 flex-wrap">

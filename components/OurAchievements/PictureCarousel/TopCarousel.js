@@ -16,6 +16,10 @@ const TopCarousel = () => {
         {
             picture: "/assets/after.jpg",
             caption: "Après pose d'un garde corps metallique",
+        },     
+        {
+            picture: "/assets/achievment3.jpg",
+            caption: "Façade en aluminium sur mesure",
         }      
     ]
 
