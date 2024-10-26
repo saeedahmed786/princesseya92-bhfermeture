@@ -1,3 +1,4 @@
+import img0 from "../../public/assets/achievment3.jpg";
 import img1 from "../../public/assets/img1.webp";
 import img2 from "../../public/assets/img2.jpg";
 import img3 from "../../public/assets/img3.jpeg";
@@ -18,6 +19,12 @@ const OurAchievements = () => {
             </div>
 
             <div className="mt-10 flex flex-col gap-4 p-5">
+                <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300">
+                        <p className="text-[17px] md:text-[23px] text-white">Façade en aluminium sur mesure </p>
+                    </div>
+                    <Image data-aos="zoom-in-left" src={img0} alt="PVC Picture" className="w-full" />
+                </div>
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Image data-aos="zoom-in-left" src={img1} alt="PVC Picture" className="w-full" />
                     <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300">
