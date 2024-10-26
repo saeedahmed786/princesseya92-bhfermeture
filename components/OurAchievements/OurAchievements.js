@@ -20,10 +20,10 @@ const OurAchievements = () => {
 
             <div className="mt-10 flex flex-col gap-4 p-5">
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300">
+                    <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300 order-1 md:order-0">
                         <p className="text-[17px] md:text-[23px] text-white">Façade en aluminium sur mesure </p>
                     </div>
-                    <Image data-aos="zoom-in-left" src={img0} alt="PVC Picture" className="w-full" />
+                    <Image data-aos="zoom-in-left" src={img0} alt="PVC Picture" className="w-full order-0 md:order-1" />
                 </div>
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Image data-aos="zoom-in-left" src={img1} alt="PVC Picture" className="w-full" />
