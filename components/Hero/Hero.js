@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
             <div data-aos="fade-right" data-aos-duration="2000" className="bg-white mt-[30px] px-6 py-10 md:py-20">
                 <h1 className="mb-5">Pour les dépannages d'urgence</h1>
-                <p className="text-lg">
+                <p className="text-lg text-black">
                     Besoin de réaliser des travaux de menuiserie en aluminium ou PVC, ou d'un dépannage en urgence en serrurerie ? Nos artisans se tiennent à votre disposition sept jours sur sept pour vous offrir des solutions de qualité, adaptées à vos besoins.
                 </p>
                 <div className="mt-10 text-center">

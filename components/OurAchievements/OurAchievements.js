@@ -17,14 +17,12 @@ const OurAchievements = () => {
             <div className="my-[40px] md:my-[100px] p-4">
                 <PictureCarousel />
             </div>
-
+            <div data-aos-duration="1000" className="relative">
+                <Image data-aos="zoom-in-top" src={img0} alt="PVC Picture" className="w-full max-h-[100vh] order-0 md:order-1" />
+                <p className="absolute bottom-[0px] w-full md:text-[19px] text-center text-white bg-black-rgba py-2 z-[1000]">Façade en aluminium sur mesure</p>
+            </div>
             <div className="mt-10 flex flex-col gap-4 p-5">
-                <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300 order-1 md:order-0">
-                        <p className="text-[17px] md:text-[23px] text-white">Façade en aluminium sur mesure </p>
-                    </div>
-                    <Image data-aos="zoom-in-left" src={img0} alt="PVC Picture" className="w-full order-0 md:order-1" />
-                </div>
+
                 <div data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Image data-aos="zoom-in-left" src={img1} alt="PVC Picture" className="w-full" />
                     <div data-aos="zoom-in-right" className="p-4 md:p-10 border bg-gray-800 border-gray-300">
