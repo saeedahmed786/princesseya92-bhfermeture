@@ -19,7 +19,7 @@ export default async function handler(req, res) {
       // Send mail with the provided details
       await transporter.sendMail({
         from: email, // Sender's email
-        to: email, // Your email where the form details will be sent
+        to: process.env.EMAIL_USER, // Your email where the form details will be sent
         subject: `Nouvelle demande de ${firstName} ${lastName}`, // Subject line
         html: `
   <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4; border-radius: 10px; border: 1px solid #ddd;">
