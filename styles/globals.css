@@ -44,3 +44,7 @@ h1 {
 .react-datepicker-wrapper {
   width: 100% !important;
 }
+
+input {
+  color: black !important;
+}
