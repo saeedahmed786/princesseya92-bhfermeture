@@ -7,6 +7,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         {/* Basic Meta Tags */}
         <title>BH FERMETURE | Travaux experts en PVC et en aluminium</title>
+        <meta name="google-site-verification" content="-7aeV9vAEld5zJQbywQejKZaElJOAB0nn6X3RWuE4MM" />
         <meta name="description" content="Services professionnels de serrurerie, de menuiserie métallique PVC et aluminium. Offrant un savoir-faire de haute qualité pour tous vos besoins en matière de sécurité et de ferronnerie. Contactez-nous pour un devis !" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="BH FERMETURE" />

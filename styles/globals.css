@@ -45,6 +45,7 @@ h1 {
   width: 100% !important;
 }
 
-input {
+input,
+textarea {
   color: black !important;
 }

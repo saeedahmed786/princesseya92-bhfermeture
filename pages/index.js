@@ -38,18 +38,18 @@ export default function Home() {
           {/* Open Graph / Facebook */}
           <meta property="og:title" content="BH FERMETURE | Expert PVC & Aluminum Work" />
           <meta property="og:description" content="We specialize in locksmithing as well as PVC and aluminum metal joinery services. Contact us for reliable and professional craftsmanship." />
-          <meta property="og:url" content="https://www.BHFERMETURE.com" />
+          <meta property="og:url" content="https://www.bh-fermeture.fr" />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="https://www.BHFERMETURE.com/images/og-image.jpg" />
+          <meta property="og:image" content="https://www.bh-fermeture.fr/assets/logo.jpg" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="BH FERMETURE | Expert PVC & Aluminum Work" />
           <meta name="twitter:description" content="Offering locksmithing, PVC, and aluminum metal joinery services. Professional craftsmanship for your home or business needs." />
-          <meta name="twitter:image" content="https://www.BHFERMETURE.com/images/twitter-image.jpg" />
+          <meta name="twitter:image" content="https://www.bh-fermeture.fr/assets/logo.jpg" />
 
           {/* Canonical URL */}
-          <link rel="canonical" href="https://www.BHFERMETURE.com" />
+          <link rel="canonical" href="https://www.bh-fermeture.fr" />
 
           {/* Keywords */}
           <meta name="keywords" content="locksmithing, PVC joinery, aluminum metal joinery, metalwork services, locksmith services, professional joinery, security services, locksmith near me, custom metal joinery, PVC window installation, aluminum doors" />
