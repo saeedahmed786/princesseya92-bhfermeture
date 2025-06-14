@@ -36,6 +36,7 @@ export default function App({ Component, pageProps }) {
 
         {/* Favicons */}
         <link rel="icon" href="/assets/logo.jpg" />
+        <script type="text/javascript" data-cmp-ab="1" src="https://cdn.consentmanager.net/delivery/autoblocking/7bd81d0532153.js" data-cmp-host="c.delivery.consentmanager.net" data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="16" />
       </Head>
       <Component {...pageProps} />
     </>
