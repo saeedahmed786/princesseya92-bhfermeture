@@ -66,6 +66,7 @@ export default function App({ Component, pageProps }) {
       </Head>
 
       {/* 1) load gtag.js */}
+      
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
         strategy="afterInteractive"
