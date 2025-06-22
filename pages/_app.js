@@ -1,7 +1,24 @@
+// pages/_app.js
 import "@/styles/globals.css";
 import Head from "next/head";
+import Script from "next/script";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+
+const GA_ID = "AW-16774737756";
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+
+  // track pageview on client-side route change
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      window.gtag("config", GA_ID, { page_path: url });
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => router.events.off("routeChangeComplete", handleRouteChange);
+  }, [router.events]);
+
   return (
     <>
       <Head>
@@ -36,9 +53,36 @@ export default function App({ Component, pageProps }) {
 
         {/* Favicons */}
         <link rel="icon" href="/assets/logo.jpg" />
-        <script type="text/javascript" data-cmp-ab="1" src="https://cdn.consentmanager.net/delivery/autoblocking/7bd81d0532153.js" data-cmp-host="c.delivery.consentmanager.net" data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="16" />
+
+        {/* Consent Manager */}
+        <script
+          type="text/javascript"
+          data-cmp-ab="1"
+          src="https://cdn.consentmanager.net/delivery/autoblocking/7bd81d0532153.js"
+          data-cmp-host="c.delivery.consentmanager.net"
+          data-cmp-cdn="cdn.consentmanager.net"
+          data-cmp-codesrc="16"
+        />
       </Head>
+
+      {/* 1) load gtag.js */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+        strategy="afterInteractive"
+        id="gtag-lib"
+      />
+
+      {/* 2) init dataLayer & gtag */}
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', '${GA_ID}', { send_page_view: false });
+        `}
+      </Script>
+
       <Component {...pageProps} />
     </>
-  )
+  );
 }
